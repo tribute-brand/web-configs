@@ -45,4 +45,4 @@ https://github.com/lfre/lerna-add-remove-issue
 
 In order to run eslint tests on all packages run `npx lerna run test`, this runs `npm run test` on each package.
 
-For more info on `lerna run` check (the docs)[https://github.com/lerna/lerna/tree/main/commands/run]
+For more info on `lerna run` check [the docs](https://github.com/lerna/lerna/tree/main/commands/run)
