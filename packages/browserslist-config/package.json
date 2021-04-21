@@ -1,0 +1,11 @@
+{
+  "name": "@acolorbright/browserslist-config",
+  "version": "2.0.0",
+  "description": "ACB's browserslist config",
+  "main": "index.js",
+  "keywords": [
+    "browserslist",
+    "browserslist-config"
+  ],
+  "license": "MIT"
+}

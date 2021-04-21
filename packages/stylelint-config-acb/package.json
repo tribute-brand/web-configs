@@ -1,0 +1,25 @@
+{
+  "name": "@acolorbright/stylelint-config-acb",
+  "version": "1.0.2",
+  "description": "Stylelint config for ACB",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "lint": "eslint --fix *.js"
+  },
+  "author": "A Color Bright GmbH",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "13.x"
+  },
+  "dependencies": {
+    "stylelint-config-property-sort-order-acb": "1.0.0",
+    "stylelint-config-recommended": "4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "7.24.0",
+    "eslint-config-acb-base": "4.0.1",
+    "eslint-plugin-extra-rules": "0.8.1",
+    "eslint-plugin-import": "2.22.1"
+  }
+}

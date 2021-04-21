@@ -13,7 +13,6 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    'eslint-config-airbnb',
     'eslint-config-acb-base',
     'eslint-config-prettier/react',
     './rules/prettier',

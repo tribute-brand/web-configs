@@ -13,12 +13,14 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    'eslint-config-airbnb-base',
-    'eslint-config-airbnb-base/rules/strict',
     './rules/best-practices',
+    './rules/errors',
     './rules/es6',
     './rules/extras',
     './rules/imports',
+    './rules/node',
+    './rules/strict',
     './rules/style',
+    './rules/variables',
   ].map(require.resolve),
 };
