@@ -1,6 +1,7 @@
 {
   "name": "acb-tools-and-configs",
-  "private": true,
+  "description": "ACB's monorepo of tools and configs used for development",
+  "license": "MIT",
   "devDependencies": {
     "lerna": "4.0.0"
   }

@@ -13,12 +13,12 @@
     "stylelint": "13.x"
   },
   "dependencies": {
-    "stylelint-config-property-sort-order-acb": "1.0.0",
+    "@acolorbright/stylelint-config-property-sort-order-acb": "1.0.0",
     "stylelint-config-recommended": "4.0.0"
   },
   "devDependencies": {
     "eslint": "7.24.0",
-    "eslint-config-acb-base": "4.0.1",
+    "@acolorbright/eslint-config-acb-base": "4.0.1",
     "eslint-plugin-extra-rules": "0.8.1",
     "eslint-plugin-import": "2.22.1"
   }
