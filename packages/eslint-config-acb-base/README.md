@@ -11,9 +11,11 @@ The plugin requires `eslint`, `babel-eslint`, and the following other packages:
 - `eslint-plugin-import`
 
 ```shell
-$ npm install --save-dev '@acolorbright/eslint-config-acb-base#v4.0.1' babel-eslint@10.x eslint@6.x eslint-plugin-extra-rules@^0.8 eslint-plugin-import@^2.22.1
+$ npx install-peerdeps -D @acolorbright/eslint-config-acb-base && npm install -DE @acolorbright/eslint-config-acb-base@latest
 ```
 
-`eslint-plugin-import@^2.22.1` is a necessary minimum for `'import/no-cycle': ['error', { maxDepth: '∞' }]` in `rules/imports.js` to work
-
 Then add `"extends": "acb-base"` to your `.eslintrc` file.
+
+Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.
+
+`eslint-plugin-import@^2.22.1` is a necessary minimum version for `'import/no-cycle': ['error', { maxDepth: '∞' }]` in `rules/imports.js` to work

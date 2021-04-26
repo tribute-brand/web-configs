@@ -15,6 +15,9 @@
     "styleguide"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@acolorbright/eslint-config-acb-base": "^1.0.0",
     "object.assign": "4.1.2"

@@ -46,3 +46,9 @@ https://github.com/lfre/lerna-add-remove-issue
 In order to run eslint tests on all packages run `npx lerna run test`, this runs `npm run test` on each package.
 
 For more info on `lerna run` check [the docs](https://github.com/lerna/lerna/tree/main/commands/run)
+
+### Publishing
+
+To publish all changes run `npx lerna publish`.
+
+Packages are published using [Fixed/Locked mode](https://github.com/lerna/lerna#fixedlocked-mode-default)

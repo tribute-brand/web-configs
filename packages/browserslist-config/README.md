@@ -11,7 +11,7 @@ We no longer support IE11.
 Via npm:
 
 ```
-npm install -DE @acolorbright/browserslist-config#v2.0.0
+npm install -DE @acolorbright/browserslist-config@latest
 ```
 
 ## Usage

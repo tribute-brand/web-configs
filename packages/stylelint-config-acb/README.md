@@ -5,8 +5,10 @@ Stylelint config providing ACB's standard linting setup for styles.
 ## Installation
 
 ```bash
-npm install --save-dev 'acolorbright/stylelint-config-acb#v1.0.2' stylelint@13.x
+$ npx install-peerdeps -D @acolorbright/stylelint-config-acb && npm install -DE @acolorbright/stylelint-config-acb@latest
 ```
+
+Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.
 
 ## Usage
 

@@ -8,6 +8,10 @@
     "lint": "eslint --fix *.js"
   },
   "author": "A Color Bright GmbH",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "stylelint": "13.x"
   },

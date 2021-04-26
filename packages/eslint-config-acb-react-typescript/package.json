@@ -16,6 +16,9 @@
     "prettier"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "eslint-config-acb-base": "4.0.1",
     "eslint-config-prettier": "7.1.0",
