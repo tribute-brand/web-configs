@@ -19,7 +19,7 @@ The plugin requires `eslint` and the following other packages:
 - `typescript`
 
 ```shell
-$ npx install-peerdeps -D @acolorbright/eslint-config-acb-react-typescript && npm install -DE @acolorbright/stylelint-config-acb@latest
+$ npx install-peerdeps -D @acolorbright/eslint-config-acb-react-typescript && npm install -DE @acolorbright/eslint-config-acb-react-typescript@latest
 ```
 
 Then add `"extends": "acb-react-typescript"` to your `.eslintrc` file.
