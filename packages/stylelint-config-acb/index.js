@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'stylelint-config-recommended',
-    'stylelint-config-property-sort-order-acb',
+    '@acolorbright/stylelint-config-property-sort-order-acb',
   ],
   rules: {
     'at-rule-no-unknown': [true, { ignoreAtRules: ['define-mixin', 'mixin'] }],
