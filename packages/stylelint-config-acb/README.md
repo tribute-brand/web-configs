@@ -16,7 +16,7 @@ To start using this configuration, simply extend this package in your Stylelint 
 
 ```js
 {
-  "extends": "stylelint-config-acb",
+  "extends": "@acolorbright/stylelint-config-acb",
   "rules": {
     // Add additional rules here
   }

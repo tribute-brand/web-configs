@@ -14,7 +14,7 @@ The plugin requires `eslint`, `babel-eslint`, and the following other packages:
 $ npx install-peerdeps -D @acolorbright/eslint-config-acb-base && npm install -DE @acolorbright/eslint-config-acb-base@latest
 ```
 
-Then add `"extends": "acb-base"` to your `.eslintrc` file.
+Then add `"extends": "@acolorbright/eslint-config-acb-base"` to your `.eslintrc` file.
 
 Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.
 

@@ -20,7 +20,7 @@ To start using this configuration, simply extend this package in your Stylelint 
 
 ```js
 {
-  "extends": "stylelint-config-property-sort-order-acb",
+  "extends": "@acolorbright/stylelint-config-property-sort-order-acb",
   "rules": {
     // Add additional rules here
   }
