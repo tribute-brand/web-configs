@@ -1,6 +1,6 @@
 {
   "name": "@acolorbright/eslint-config-acb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ACB's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@acolorbright/eslint-config-acb-base": "^1.0.0",
+    "@acolorbright/eslint-config-acb-base": "^1.0.1",
     "object.assign": "4.1.2"
   },
   "peerDependencies": {
