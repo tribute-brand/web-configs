@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const assign = require('object.assign')
-const baseStyleRules = require('eslint-config-acb-base/rules/style').rules
+const baseStyleRules = require('@acolorbright/eslint-config-acb-base/rules/style')
+  .rules
 
 const dangleRules = baseStyleRules['no-underscore-dangle']
 

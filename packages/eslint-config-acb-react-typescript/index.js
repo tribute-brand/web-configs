@@ -13,7 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    'eslint-config-acb-base',
+    '@acolorbright/eslint-config-acb-base',
     'eslint-config-prettier/react',
     './rules/prettier',
     './rules/typescript',
