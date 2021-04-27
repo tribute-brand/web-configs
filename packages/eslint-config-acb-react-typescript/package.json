@@ -1,6 +1,6 @@
 {
   "name": "@acolorbright/eslint-config-acb-react-typescript",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ACB's ESLint config for using react with typescript",
   "main": "index.js",
   "scripts": {
