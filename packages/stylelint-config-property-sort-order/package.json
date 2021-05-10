@@ -23,7 +23,7 @@
     "stylelint": "13.x"
   },
   "devDependencies": {
-    "@acolorbright/eslint-config": "2.0.0",
+    "@acolorbright/eslint-config": "^2.0.0",
     "eslint": "7.24.0",
     "eslint-plugin-extra-rules": "0.8.1",
     "eslint-plugin-import": "2.22.1"
