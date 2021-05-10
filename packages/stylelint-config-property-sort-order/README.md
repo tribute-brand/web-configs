@@ -1,4 +1,4 @@
-# stylelint-config-property-sort-order-acb
+# stylelint-config-property-sort-order
 
 Stylelint config for Property Sort Ordering based on
 [stylelint-config-property-sort-order-smacss](https://github.com/cahamilton/stylelint-config-property-sort-order-smacss/),
@@ -9,7 +9,7 @@ This config adds empty lines between the SMACSS property groups.
 ## Installation
 
 ```bash
-npx install-peerdeps -D @acolorbright/stylelint-config-property-sort-order-acb && npm install -DE @acolorbright/stylelint-config-property-sort-order-acb@latest
+npx install-peerdeps -D @acolorbright/stylelint-config-property-sort-order && npm install -DE @acolorbright/stylelint-config-property-sort-order@latest
 ```
 
 Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.
@@ -20,7 +20,7 @@ To start using this configuration, simply extend this package in your Stylelint 
 
 ```js
 {
-  "extends": "@acolorbright/stylelint-config-property-sort-order-acb",
+  "extends": "@acolorbright/stylelint-config-property-sort-order",
   "rules": {
     // Add additional rules here
   }

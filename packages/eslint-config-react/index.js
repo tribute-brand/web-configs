@@ -13,7 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    '@acolorbright/eslint-config-acb-base',
+    '@acolorbright/eslint-config',
     './rules/control-statements',
     './rules/react',
     './rules/react-a11y',

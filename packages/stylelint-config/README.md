@@ -1,11 +1,11 @@
-# stylelint-config-acb
+# stylelint-config
 
 Stylelint config providing ACB's standard linting setup for styles.
 
 ## Installation
 
 ```bash
-$ npx install-peerdeps -D @acolorbright/stylelint-config-acb && npm install -DE @acolorbright/stylelint-config-acb@latest
+$ npx install-peerdeps -D @acolorbright/stylelint-config && npm install -DE @acolorbright/stylelint-config@latest
 ```
 
 Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.
@@ -16,7 +16,7 @@ To start using this configuration, simply extend this package in your Stylelint 
 
 ```js
 {
-  "extends": "@acolorbright/stylelint-config-acb",
+  "extends": "@acolorbright/stylelint-config",
   "rules": {
     // Add additional rules here
   }

@@ -1,11 +1,15 @@
 {
-  "name": "@acolorbright/eslint-config-acb-base",
-  "version": "1.0.1",
+  "name": "@acolorbright/eslint-config",
+  "version": "2.0.0",
   "description": "ACB's base JS ESLint config.",
   "main": "index.js",
   "scripts": {
     "test": "eslint .",
     "lint": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
   },
   "keywords": [
     "eslint",
@@ -16,6 +20,9 @@
   ],
   "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
