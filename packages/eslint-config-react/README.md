@@ -5,7 +5,7 @@ This plugin provides ACB's `.eslintrc` as an extensible shared config, based on 
 
 ## Installation
 
-The plugin requires `eslint`, `babel-eslint`, and the following other packages:
+The plugin requires `eslint`, `@babel/core`, `@babel/eslint-parser`, and the following other packages:
 
 - `eslint-plugin-extra-rules`
 - `eslint-plugin-import`

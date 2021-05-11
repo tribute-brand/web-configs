@@ -5,7 +5,7 @@ This plugin provides ACB's base JS `.eslintrc` (without React plugins) as an ext
 
 ## Installation
 
-The plugin requires `eslint`, `babel-eslint`, and the following other packages:
+The plugin requires `eslint`, `@babel/core`, `@babel/eslint-parser` and the following other packages:
 
 - `eslint-plugin-extra-rules`
 - `eslint-plugin-import`

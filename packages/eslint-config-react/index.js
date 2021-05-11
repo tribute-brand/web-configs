@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   env: {
     browser: true,
     commonjs: true,
@@ -8,9 +8,13 @@ module.exports = {
     jest: true,
     node: true,
   },
+  globals: {
+    React: 'readonly',
+  },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
+    requireConfigFile: false,
   },
   extends: [
     '@acolorbright/eslint-config',

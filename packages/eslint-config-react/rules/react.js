@@ -214,7 +214,7 @@ module.exports = {
 
     // Prevent missing React when using JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
-    'react/react-in-jsx-scope': 'error',
+    'react/react-in-jsx-scope': 'off',
 
     // Require render() methods to return something
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
@@ -354,7 +354,7 @@ module.exports = {
 
     // Prevent invalid characters from appearing in markup
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
-    'react/no-unescaped-entities': 'error',
+    'react/no-unescaped-entities': 'off',
 
     // Prevent passing of children as props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
