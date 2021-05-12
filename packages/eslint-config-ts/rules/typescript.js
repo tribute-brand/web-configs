@@ -6,4 +6,4 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error'],
     'no-use-before-define': 'off',
   },
-}
+};

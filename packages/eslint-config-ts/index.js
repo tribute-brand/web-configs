@@ -13,13 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    '@acolorbright/eslint-config-ts',
-    'eslint-config-prettier/react',
-    './rules/prettier',
-    './rules/react',
-    './rules/react-a11y',
-    './rules/react-hooks',
-    './rules/style',
-    './rules/import',
+    '@acolorbright/eslint-config',
+    './rules/typescript',
   ].map(require.resolve),
-}
+};
