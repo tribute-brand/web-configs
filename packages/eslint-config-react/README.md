@@ -17,9 +17,9 @@ The plugin requires `eslint`, `@babel/core`, `@babel/eslint-parser`, and the fol
 If you don't need React, see [eslint-config](https://github.com/acolorbright/acb-tools-and-config/tree/main/packages/eslint-config). For React with TypeScript see [eslint-config-ts-react](https://github.com/acolorbright/acb-tools-and-config/tree/main/packages/eslint-config-ts-react).
 
 ```shell
-$ npx install-peerdeps -D @acolorbright/eslint-config && npm install -DE @acolorbright/eslint-config@latest
+$ npx install-peerdeps -D @acolorbright/eslint-config-react && npm install -DE @acolorbright/eslint-config-react@latest
 ```
 
-Then add `"extends": "@acolorbright/eslint-config"` to your `.eslintrc` file.
+Then add `"extends": "@acolorbright/eslint-config-react"` to your `.eslintrc` file.
 
 Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.
