@@ -1,6 +1,6 @@
 {
   "name": "@acolorbright/css-module-bem-loader",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A webpack loader for css modules using BEM",
   "author": "Sanjay Twisk <sanjay@acolorbright.com>",
   "homepage": "https://github.com/acolorbright/acb-tools-and-configs#readme",
@@ -36,8 +36,8 @@
     "loader-utils": "2.0.0"
   },
   "peerDependencies": {
-    "webpack": ">= 4.0.0",
-    "css-loader": "5.x"
+    "css-loader": "5.x",
+    "webpack": ">= 4.0.0"
   },
   "jest": {
     "modulePathIgnorePatterns": [
