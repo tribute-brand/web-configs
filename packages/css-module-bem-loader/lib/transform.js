@@ -1,29 +1,29 @@
 module.exports = (data, filename) => {
   if (!data) {
-    throw new Error("Css module object is not defined");
+    throw new Error('Css module object is not defined')
   }
   const bemUtils = {
-    block: "",
+    block: '',
     element: {},
     modifier: {},
-  };
-  if (!data[filename]) {
+  }
+  if (!data[filename] && !Object.keys(data).includes(filename)) {
     console.warn(
-      "Please make sure your block classname and css filename are equal"
-    );
+      'Please make sure your block classname and css filename are equal'
+    )
     console.warn(
-      "Please make sure the modules.namedExport css-loader option is not enabled"
-    );
+      'Please make sure the modules.namedExport css-loader option is not enabled'
+    )
   }
   return Object.entries(data).reduce(
     (result, [className, generated], index) => {
-      const [, element] = className.split("__");
-      const [, modifier] = className.split("--");
+      const [, element] = className.split('__')
+      const [, modifier] = className.split('--')
 
       const block =
         !element && !modifier && className === filename
           ? generated
-          : result.block;
+          : result.block
       return {
         ...result,
         block: block,
@@ -35,8 +35,8 @@ module.exports = (data, filename) => {
           ...result.modifier,
           ...(modifier ? { [modifier]: generated } : {}),
         },
-      };
+      }
     },
     bemUtils
-  );
-};
+  )
+}
