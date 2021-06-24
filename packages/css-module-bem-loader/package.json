@@ -1,6 +1,6 @@
 {
   "name": "@acolorbright/css-module-bem-loader",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A webpack loader for css modules using BEM",
   "author": "Sanjay Twisk <sanjay@acolorbright.com>",
   "homepage": "https://github.com/acolorbright/acb-tools-and-configs#readme",
