@@ -7,7 +7,10 @@ module.exports = (data, filename) => {
     element: {},
     modifier: {},
   }
-  if (!data[filename] && !Object.keys(data).includes(filename)) {
+  if (
+    !data[filename] &&
+    !Object.keys(data).every((className) => className.includes(filename))
+  ) {
     console.warn(
       'Please make sure your block classname and css filename are equal'
     )
