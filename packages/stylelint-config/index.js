@@ -10,6 +10,7 @@ module.exports = {
     'color-hex-length': 'short',
     'color-no-invalid-hex': true,
     'length-zero-no-unit': true,
+    'max-empty-lines': 1,
     'max-nesting-depth': 3,
     'media-feature-name-disallowed-list': ['max-width'],
     'media-feature-name-no-vendor-prefix': true,
