@@ -1,6 +1,6 @@
 {
   "name": "@acolorbright/eslint-config-react",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "ACB's ESLint config for using React",
   "main": "index.js",
   "scripts": {
