@@ -6,7 +6,7 @@ const baseStyleRules = require('@acolorbright/eslint-config-ts/rules/style')
 const dangleRules = baseStyleRules['no-underscore-dangle']
 
 module.exports = {
-  plugins: ['react'],
+  plugins: ['react', 'plugin:react/jsx-runtime'],
 
   parserOptions: {
     ecmaFeatures: {
@@ -96,7 +96,7 @@ module.exports = {
 
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-    'react/jsx-indent-props': ['error', 2],
+    'react/jsx-indent-props': ['error', 'tab'],
 
     // Validate JSX has key prop when in array or iterator
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
@@ -174,7 +174,7 @@ module.exports = {
 
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-    'react/jsx-uses-react': ['error'],
+    'react/jsx-uses-react': ['off'],
 
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
@@ -329,7 +329,7 @@ module.exports = {
 
     // Enforce JSX indentation
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-    'react/jsx-indent': ['error', 2],
+    'react/jsx-indent': ['error', 'tab'],
 
     // Disallow target="_blank" on links
     // https://github.com/yannickcr/eslint-plugin-react/blob/ac102885765be5ff37847a871f239c6703e1c7cc/docs/rules/jsx-no-target-blank.md
