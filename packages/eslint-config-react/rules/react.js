@@ -5,7 +5,7 @@ const dangleRules = baseStyleRules['no-underscore-dangle'];
 
 module.exports = {
   plugins: [
-    'react', 'plugin:react/jsx-runtime',
+    'react',
   ],
 
   parserOptions: {

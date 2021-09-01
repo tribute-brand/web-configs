@@ -6,7 +6,7 @@ const baseStyleRules = require('@acolorbright/eslint-config-ts/rules/style')
 const dangleRules = baseStyleRules['no-underscore-dangle']
 
 module.exports = {
-  plugins: ['react', 'plugin:react/jsx-runtime'],
+  plugins: ['react'],
 
   parserOptions: {
     ecmaFeatures: {
