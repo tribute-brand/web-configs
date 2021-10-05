@@ -461,7 +461,7 @@ module.exports = {
 
     // Enforce shorthand or standard form for React fragments
     // https://github.com/yannickcr/eslint-plugin-react/blob/bc976b837abeab1dffd90ac6168b746a83fc83cc/docs/rules/jsx-fragments.md
-    'react/jsx-fragments': ['error', 'element'],
+    'react/jsx-fragments': ['error', 'syntax'],
 
     // Enforce linebreaks in curly braces in JSX attributes and expressions.
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-newline.md
