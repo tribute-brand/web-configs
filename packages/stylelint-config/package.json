@@ -24,12 +24,12 @@
   },
   "dependencies": {
     "@acolorbright/stylelint-config-property-sort-order": "^2.0.6",
-    "stylelint-config-recommended": "4.0.0"
+    "stylelint-config-recommended": "5.0.0"
   },
   "devDependencies": {
     "@acolorbright/eslint-config": "^2.0.2",
-    "eslint": "7.24.0",
+    "eslint": "8.0.1",
     "eslint-plugin-extra-rules": "0.8.1",
-    "eslint-plugin-import": "2.22.1"
+    "eslint-plugin-import": "2.25.2"
   }
 }

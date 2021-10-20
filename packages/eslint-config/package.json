@@ -35,15 +35,15 @@
   "peerDependencies": {
     "@babel/core": "7.x",
     "@babel/eslint-parser": "7.x",
-    "eslint": "7.x",
+    "eslint": "7.x || 8.x",
     "eslint-plugin-extra-rules": "^0.8",
     "eslint-plugin-import": "^2.22.1"
   },
   "devDependencies": {
-    "@babel/core": "7.14.0",
-    "@babel/eslint-parser": "7.13.14",
-    "eslint": "7.26.0",
+    "@babel/core": "7.15.8",
+    "@babel/eslint-parser": "7.15.8",
+    "eslint": "8.0.1",
     "eslint-plugin-extra-rules": "0.8.1",
-    "eslint-plugin-import": "2.22.1"
+    "eslint-plugin-import": "2.25.2"
   }
 }
