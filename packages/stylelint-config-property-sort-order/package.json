@@ -20,7 +20,7 @@
     "url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
   },
   "peerDependencies": {
-    "stylelint": "13.x"
+    "stylelint": "13.x || 14.x"
   },
   "devDependencies": {
     "@acolorbright/eslint-config": "^2.1.0",
