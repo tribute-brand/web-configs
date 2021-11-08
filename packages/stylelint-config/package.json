@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/stylelint-config",
-	"version": "2.2.1",
+	"version": "2.2.2",
 	"description": "Stylelint config for ACB",
 	"main": "index.js",
 	"scripts": {
@@ -23,11 +23,11 @@
 		"stylelint": "13.x || 14.x"
 	},
 	"dependencies": {
-		"@acolorbright/stylelint-config-property-sort-order": "^2.1.1",
+		"@acolorbright/stylelint-config-property-sort-order": "^2.1.2",
 		"stylelint-config-recommended": "5.0.0"
 	},
 	"devDependencies": {
-		"@acolorbright/eslint-config": "^2.1.0",
+		"@acolorbright/eslint-config": "^2.1.1",
 		"eslint": "8.0.1",
 		"eslint-plugin-extra-rules": "0.8.1",
 		"eslint-plugin-import": "2.25.2"
