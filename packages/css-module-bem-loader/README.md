@@ -16,20 +16,20 @@ The css module BEM loader can only be used in combination with `css-loader` and 
 
 ```js
 {
-  test: /\.module\.css/,
-  use: [
-    'style-loader',
-    '@acolorbright/css-module-bem-loader',
-    {
-      loader: 'css-loader',
-      options: {
-        modules: {
-          namedExport: false,
-          mode: 'pure'
-        }
-      }
-    }
-  ]
+	test: /\.module\.css/,
+	use: [
+		'style-loader',
+		'@acolorbright/css-module-bem-loader',
+		{
+			loader: 'css-loader',
+			options: {
+				modules: {
+					namedExport: false,
+					mode: 'pure'
+				}
+			}
+		}
+	]
 }
 ```
 
@@ -43,15 +43,15 @@ In order to use the loader correctly you need to make sure that a module's block
 ```css
 /* navigation.module.css */
 .navigation {
-  /* styles */
+	/* styles */
 }
 
 .navigation__links {
-  /* styles */
+	/* styles */
 }
 
 .navigation--expanded {
-  /* styles */
+	/* styles */
 }
 ```
 

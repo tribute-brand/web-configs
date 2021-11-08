@@ -1,62 +1,62 @@
 {
-  "name": "@acolorbright/eslint-config-ts-react",
-  "version": "2.3.0",
-  "description": "ACB's ESLint config for using React with TypeScript",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
-    "typescript",
-    "styleguide",
-    "react",
-    "prettier"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
-    "@acolorbright/eslint-config-ts": "^2.1.0",
-    "eslint-config-prettier": "8.3.0",
-    "object.assign": "4.1.2"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.x || 5.x",
-    "@typescript-eslint/parser": "4.x || 5.x",
-    "eslint": "7.x || 8.x",
-    "eslint-plugin-extra-rules": "^0.8",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-prettier": "3.x || 4.x",
-    "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "4.x",
-    "eslint-plugin-simple-import-sort": "7.x",
-    "prettier": "2.x",
-    "typescript": "4.x"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.0.0",
-    "@typescript-eslint/parser": "5.0.0",
-    "eslint": "8.0.1",
-    "eslint-plugin-extra-rules": "0.8.1",
-    "eslint-plugin-import": "2.25.2",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.26.1",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "eslint-plugin-simple-import-sort": "7.0.0",
-    "prettier": "2.4.1",
-    "typescript": "4.4.3"
-  }
+	"name": "@acolorbright/eslint-config-ts-react",
+	"version": "2.3.0",
+	"description": "ACB's ESLint config for using React with TypeScript",
+	"main": "index.js",
+	"scripts": {
+		"test": "eslint ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"config",
+		"typescript",
+		"styleguide",
+		"react",
+		"prettier"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"@acolorbright/eslint-config-ts": "^2.1.0",
+		"eslint-config-prettier": "8.3.0",
+		"object.assign": "4.1.2"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "4.x || 5.x",
+		"@typescript-eslint/parser": "4.x || 5.x",
+		"eslint": "7.x || 8.x",
+		"eslint-plugin-extra-rules": "^0.8",
+		"eslint-plugin-import": "2.x",
+		"eslint-plugin-jsx-a11y": "6.x",
+		"eslint-plugin-prettier": "3.x || 4.x",
+		"eslint-plugin-react": "7.x",
+		"eslint-plugin-react-hooks": "4.x",
+		"eslint-plugin-simple-import-sort": "7.x",
+		"prettier": "2.x",
+		"typescript": "4.x"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "5.0.0",
+		"@typescript-eslint/parser": "5.0.0",
+		"eslint": "8.0.1",
+		"eslint-plugin-extra-rules": "0.8.1",
+		"eslint-plugin-import": "2.25.2",
+		"eslint-plugin-jsx-a11y": "6.4.1",
+		"eslint-plugin-prettier": "4.0.0",
+		"eslint-plugin-react": "7.26.1",
+		"eslint-plugin-react-hooks": "4.2.0",
+		"eslint-plugin-simple-import-sort": "7.0.0",
+		"prettier": "2.4.1",
+		"typescript": "4.4.3"
+	}
 }

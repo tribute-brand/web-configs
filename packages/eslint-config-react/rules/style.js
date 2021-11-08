@@ -1,11 +1,11 @@
 module.exports = {
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true,
+		},
+	},
 
-  rules: {
-    'jsx-quotes': ['error', 'prefer-double'],
-  },
+	rules: {
+		'jsx-quotes': ['error', 'prefer-double'],
+	},
 };

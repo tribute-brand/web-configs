@@ -1,49 +1,49 @@
 {
-  "name": "@acolorbright/eslint-config",
-  "version": "2.1.0",
-  "description": "ACB's base JS ESLint config.",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint .",
-    "lint": "eslint --fix ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "config",
-    "javascript",
-    "styleguide"
-  ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "engines": {
-    "node": ">= 6.14"
-  },
-  "dependencies": {
-    "confusing-browser-globals": "1.0.10"
-  },
-  "peerDependencies": {
-    "@babel/core": "7.x",
-    "@babel/eslint-parser": "7.x",
-    "eslint": "7.x || 8.x",
-    "eslint-plugin-extra-rules": "^0.8",
-    "eslint-plugin-import": "^2.22.1"
-  },
-  "devDependencies": {
-    "@babel/core": "7.15.8",
-    "@babel/eslint-parser": "7.15.8",
-    "eslint": "8.0.1",
-    "eslint-plugin-extra-rules": "0.8.1",
-    "eslint-plugin-import": "2.25.2"
-  }
+	"name": "@acolorbright/eslint-config",
+	"version": "2.1.0",
+	"description": "ACB's base JS ESLint config.",
+	"main": "index.js",
+	"scripts": {
+		"test": "eslint .",
+		"lint": "eslint --fix ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"config",
+		"javascript",
+		"styleguide"
+	],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"engines": {
+		"node": ">= 6.14"
+	},
+	"dependencies": {
+		"confusing-browser-globals": "1.0.10"
+	},
+	"peerDependencies": {
+		"@babel/core": "7.x",
+		"@babel/eslint-parser": "7.x",
+		"eslint": "7.x || 8.x",
+		"eslint-plugin-extra-rules": "^0.8",
+		"eslint-plugin-import": "^2.22.1"
+	},
+	"devDependencies": {
+		"@babel/core": "7.15.8",
+		"@babel/eslint-parser": "7.15.8",
+		"eslint": "8.0.1",
+		"eslint-plugin-extra-rules": "0.8.1",
+		"eslint-plugin-import": "2.25.2"
+	}
 }

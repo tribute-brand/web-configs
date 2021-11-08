@@ -1,8 +1,8 @@
 {
-  "name": "acb-tools-and-configs",
-  "description": "ACB's monorepo of tools and configs used for development",
-  "license": "MIT",
-  "devDependencies": {
-    "lerna": "4.0.0"
-  }
+	"name": "acb-tools-and-configs",
+	"description": "ACB's monorepo of tools and configs used for development",
+	"license": "MIT",
+	"devDependencies": {
+		"lerna": "4.0.0"
+	}
 }

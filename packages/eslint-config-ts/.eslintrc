@@ -1,6 +1,6 @@
 {
-  "extends": "./index.js",
-  "rules": {
-    "sort-keys": 0
-  }
+	"extends": "./index.js",
+	"rules": {
+		"sort-keys": 0
+	}
 }

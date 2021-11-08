@@ -1,35 +1,35 @@
 {
-  "name": "@acolorbright/stylelint-config-property-sort-order",
-  "version": "2.1.1",
-  "description": "Stylelint config for property sort ordering and grouping",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint .",
-    "lint": "eslint --fix *.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
-  },
-  "author": "A Color Bright GmbH",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "bugs": {
-    "url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
-  },
-  "peerDependencies": {
-    "stylelint": "13.x || 14.x"
-  },
-  "devDependencies": {
-    "@acolorbright/eslint-config": "^2.1.0",
-    "eslint": "8.0.1",
-    "eslint-plugin-extra-rules": "0.8.1",
-    "eslint-plugin-import": "2.25.2"
-  },
-  "dependencies": {
-    "css-property-sort-order-smacss": "2.1.3",
-    "stylelint-config-property-sort-order-smacss": "7.1.0"
-  }
+	"name": "@acolorbright/stylelint-config-property-sort-order",
+	"version": "2.1.1",
+	"description": "Stylelint config for property sort ordering and grouping",
+	"main": "index.js",
+	"scripts": {
+		"test": "eslint .",
+		"lint": "eslint --fix *.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
+	},
+	"author": "A Color Bright GmbH",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"bugs": {
+		"url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
+	},
+	"peerDependencies": {
+		"stylelint": "13.x || 14.x"
+	},
+	"devDependencies": {
+		"@acolorbright/eslint-config": "^2.1.0",
+		"eslint": "8.0.1",
+		"eslint-plugin-extra-rules": "0.8.1",
+		"eslint-plugin-import": "2.25.2"
+	},
+	"dependencies": {
+		"css-property-sort-order-smacss": "2.1.3",
+		"stylelint-config-property-sort-order-smacss": "7.1.0"
+	}
 }

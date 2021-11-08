@@ -1,54 +1,54 @@
 {
-  "name": "@acolorbright/eslint-config-react",
-  "version": "2.3.0",
-  "description": "ACB's ESLint config for using React",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint .",
-    "lint": "eslint . --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
-    "javascript",
-    "styleguide"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
-    "@acolorbright/eslint-config": "^2.1.0",
-    "object.assign": "4.1.2"
-  },
-  "peerDependencies": {
-    "@babel/core": "7.x",
-    "@babel/eslint-parser": "7.x",
-    "eslint": "7.x || 8.x",
-    "eslint-plugin-extra-rules": "^0.8",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-jsx-control-statements": "2.x",
-    "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "4.x"
-  },
-  "devDependencies": {
-    "@babel/core": "7.15.8",
-    "@babel/eslint-parser": "7.15.8",
-    "eslint": "8.0.1",
-    "eslint-plugin-extra-rules": "0.8.1",
-    "eslint-plugin-import": "2.25.2",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-jsx-control-statements": "2.2.1",
-    "eslint-plugin-react": "7.26.1",
-    "eslint-plugin-react-hooks": "4.2.0"
-  }
+	"name": "@acolorbright/eslint-config-react",
+	"version": "2.3.0",
+	"description": "ACB's ESLint config for using React",
+	"main": "index.js",
+	"scripts": {
+		"test": "eslint .",
+		"lint": "eslint . --fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"config",
+		"javascript",
+		"styleguide"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"@acolorbright/eslint-config": "^2.1.0",
+		"object.assign": "4.1.2"
+	},
+	"peerDependencies": {
+		"@babel/core": "7.x",
+		"@babel/eslint-parser": "7.x",
+		"eslint": "7.x || 8.x",
+		"eslint-plugin-extra-rules": "^0.8",
+		"eslint-plugin-import": "2.x",
+		"eslint-plugin-jsx-a11y": "6.x",
+		"eslint-plugin-jsx-control-statements": "2.x",
+		"eslint-plugin-react": "7.x",
+		"eslint-plugin-react-hooks": "4.x"
+	},
+	"devDependencies": {
+		"@babel/core": "7.15.8",
+		"@babel/eslint-parser": "7.15.8",
+		"eslint": "8.0.1",
+		"eslint-plugin-extra-rules": "0.8.1",
+		"eslint-plugin-import": "2.25.2",
+		"eslint-plugin-jsx-a11y": "6.4.1",
+		"eslint-plugin-jsx-control-statements": "2.2.1",
+		"eslint-plugin-react": "7.26.1",
+		"eslint-plugin-react-hooks": "4.2.0"
+	}
 }

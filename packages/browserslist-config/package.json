@@ -1,14 +1,14 @@
 {
-  "name": "@acolorbright/browserslist-config",
-  "version": "1.0.1",
-  "description": "ACB's browserslist config",
-  "main": "index.js",
-  "keywords": [
-    "browserslist",
-    "browserslist-config"
-  ],
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@acolorbright/browserslist-config",
+	"version": "1.0.1",
+	"description": "ACB's browserslist config",
+	"main": "index.js",
+	"keywords": [
+		"browserslist",
+		"browserslist-config"
+	],
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	}
 }
