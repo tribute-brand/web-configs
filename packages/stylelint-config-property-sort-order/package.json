@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/stylelint-config-property-sort-order",
-	"version": "2.1.2",
+	"version": "3.0.0",
 	"description": "Stylelint config for property sort ordering and grouping",
 	"main": "index.js",
 	"scripts": {
@@ -30,6 +30,6 @@
 	},
 	"dependencies": {
 		"css-property-sort-order-smacss": "2.1.3",
-		"stylelint-config-property-sort-order-smacss": "7.1.0"
+		"stylelint-config-property-sort-order-smacss": "8.0.0"
 	}
 }
