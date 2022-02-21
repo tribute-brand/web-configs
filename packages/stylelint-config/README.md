@@ -5,14 +5,12 @@ Stylelint config providing ACB's standard linting setup for styles.
 ## Installation
 
 ```bash
-$ npx install-peerdeps -D @acolorbright/stylelint-config && npm install -DE @acolorbright/stylelint-config@latest
+npm install -DE @acolorbright/stylelint-config@latest
 ```
-
-Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.
 
 ## Usage
 
-To start using this configuration, simply extend this package in your Stylelint configuration.
+To start using this configuration, extend this package in your Stylelint configuration.
 
 ```js
 {
@@ -27,6 +25,6 @@ For more information on configuring Stylelint, check out the [configuration](htt
 
 ## Property Ordering
 
-Property ordering is performed according to the [SMACSS](http://smacss.com) methodology.
+Property ordering is performed according to the [SMACSS](http://smacss.com) methodology, with empty lines enforced between property groups.
 
-Refer to [here](https://github.com/cahamilton/css-property-sort-order-smacss/blob/master/index.js) for the comprehensive list of property orders.
+Refer to [css-property-sort-order-smacss](https://github.com/cahamilton/css-property-sort-order-smacss/blob/master/index.js) for the comprehensive list of property orders.
