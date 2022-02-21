@@ -1,9 +1,12 @@
+const sortOrderSmacss = require('stylelint-config-property-sort-order-smacss/generate');
+
 module.exports = {
+	plugins: ['stylelint-order'],
 	extends: [
 		'stylelint-config-recommended',
-		'@acolorbright/stylelint-config-property-sort-order',
 	],
 	rules: {
+		'order/properties-order': [sortOrderSmacss({ emptyLineBefore: 'always' })],
 		'at-rule-no-unknown': [true, { ignoreAtRules: ['define-mixin', 'mixin'] }],
 		'at-rule-name-space-after': 'always-single-line',
 		'at-rule-no-vendor-prefix': true,
