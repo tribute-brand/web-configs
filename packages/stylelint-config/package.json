@@ -29,6 +29,7 @@
 	},
 	"devDependencies": {
 		"@acolorbright/eslint-config": "^3.0.0",
+		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "8.0.1",
 		"eslint-plugin-extra-rules": "0.8.1",
 		"eslint-plugin-import": "2.25.2"

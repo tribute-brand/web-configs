@@ -35,6 +35,7 @@
 	"peerDependencies": {
 		"@babel/core": "7.x",
 		"@babel/eslint-parser": "7.x",
+		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "7.x || 8.x",
 		"eslint-plugin-extra-rules": "^0.8",
 		"eslint-plugin-import": "^2.22.1"
