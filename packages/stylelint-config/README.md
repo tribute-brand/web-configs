@@ -21,7 +21,7 @@ To start using this configuration, extend this package in your Stylelint configu
 }
 ```
 
-For more information on configuring Stylelint, check out the [configuration](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/configuration.md) guide.
+For more information on configuring Stylelint, check out the [configuration](https://github.com/stylelint/stylelint/blob/main/docs/user-guide/configure.md) guide.
 
 ## Property Ordering
 
