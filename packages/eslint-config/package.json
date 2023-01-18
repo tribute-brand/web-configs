@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/eslint-config",
-	"version": "3.0.2",
+	"version": "3.0.3",
 	"description": "ACB's base JS ESLint config.",
 	"main": "index.js",
 	"scripts": {
