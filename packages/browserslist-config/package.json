@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/browserslist-config",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "ACB's browserslist config",
 	"main": "index.js",
 	"keywords": [
