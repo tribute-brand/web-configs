@@ -26,8 +26,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@acolorbright/eslint-config": "^3.1.0",
-		"object.assign": "4.1.2"
+		"@acolorbright/eslint-config": "^3.1.0"
 	},
 	"peerDependencies": {
 		"@babel/core": "7.x",
