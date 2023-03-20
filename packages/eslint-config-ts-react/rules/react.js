@@ -16,11 +16,12 @@ module.exports = {
 	rules: {
 		'no-underscore-dangle': [
 			dangleRules[0],
-			Object.assign({}, dangleRules[1], {
+			{
+				...dangleRules[1],
 				allow: dangleRules[1].allow.concat([
 					'__REDUX_DEVTOOLS_EXTENSION_COMPOSE__',
 				]),
-			}),
+			},
 		],
 
 		// Specify whether double or single quotes should be used in JSX attributes
