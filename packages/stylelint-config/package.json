@@ -20,7 +20,7 @@
 		"url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
 	},
 	"peerDependencies": {
-		"stylelint": "^14.4.0"
+		"stylelint": "^14.4.0 || ^15.0.0"
 	},
 	"dependencies": {
 		"stylelint-config-property-sort-order-smacss": "9.1.0",
