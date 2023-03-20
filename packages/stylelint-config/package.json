@@ -23,7 +23,7 @@
 		"stylelint": "^14.4.0"
 	},
 	"dependencies": {
-		"stylelint-config-property-sort-order-smacss": "9.0.0",
+		"stylelint-config-property-sort-order-smacss": "9.1.0",
 		"stylelint-config-recommended": "7.0.0",
 		"stylelint-order": "6.0.3"
 	},
