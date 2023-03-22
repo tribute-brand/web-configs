@@ -23,5 +23,6 @@ module.exports = {
 		'./rules/react-a11y',
 		'./rules/react-hooks',
 		'./rules/style',
+		'./rules/import',
 	].map(require.resolve),
 };
