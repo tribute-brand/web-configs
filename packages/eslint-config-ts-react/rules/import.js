@@ -22,13 +22,18 @@ module.exports = {
 				png: 'always',
 				jpg: 'always',
 				json: 'always',
+				css: 'always',
 				scss: 'always',
 			},
 		],
+		'import/first': 2,
+		'import/newline-after-import': 2,
+		'import/no-duplicates': 2,
 		'import/no-extraneous-dependencies': [
 			'error',
 			{ devDependencies: ['**/*.test.ts', '**/*.test.tsx'] },
 		],
+		'import/order': 0,
 		'simple-import-sort/imports': [
 			'error',
 			{
@@ -61,5 +66,6 @@ module.exports = {
 			},
 		],
 		'simple-import-sort/exports': 'error',
+		'sort/imports': 0,
 	},
 }
