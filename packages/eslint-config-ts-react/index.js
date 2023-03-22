@@ -22,4 +22,4 @@ module.exports = {
 		'./rules/style',
 		'./rules/import',
 	].map(require.resolve),
-}
+};

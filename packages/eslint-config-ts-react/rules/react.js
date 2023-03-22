@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const baseStyleRules =
-	require('@acolorbright/eslint-config-ts/rules/style').rules
+	require('@acolorbright/eslint-config-ts/rules/style').rules;
 
-const dangleRules = baseStyleRules['no-underscore-dangle']
+const dangleRules = baseStyleRules['no-underscore-dangle'];
 
 module.exports = {
 	plugins: ['react'],
@@ -595,4 +595,4 @@ module.exports = {
 			'Object.freeze', // https://tc39.github.io/ecma262/#sec-object.freeze
 		],
 	},
-}
+};
