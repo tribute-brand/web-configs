@@ -5,7 +5,6 @@
 [*]
 # We recommend you to keep these unchanged
 indent_style = tab
-quote_type = single
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
