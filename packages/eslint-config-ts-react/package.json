@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/eslint-config-ts-react",
-	"version": "4.0.1",
+	"version": "4.0.2",
 	"description": "ACB's ESLint config for using React with TypeScript",
 	"main": "index.js",
 	"scripts": {
