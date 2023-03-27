@@ -3,6 +3,6 @@
 	"description": "ACB's monorepo of tools and configs used for development",
 	"license": "MIT",
 	"devDependencies": {
-		"lerna": "6.5.1"
+		"lerna": "6.6.1"
 	}
 }
