@@ -12,10 +12,8 @@ The plugin requires `eslint` and the following other packages:
 - `eslint-plugin-extra-rules`
 - `eslint-plugin-import`
 - `eslint-plugin-jsx-a11y`
-- `eslint-plugin-prettier`
 - `eslint-plugin-react`
 - `eslint-plugin-react-hooks`
-- `prettier`
 - `typescript`
 
 ```shell
