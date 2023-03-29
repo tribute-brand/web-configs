@@ -4,10 +4,9 @@ const fs = require('fs');
 const src = 'src';
 
 const folders = fs.existsSync(src)
-	? fs
-			.readdirSync(src, { withFileTypes: true })
-			.filter((dirent) => dirent.isDirectory())
-			.map((dirent) => dirent.name)
+	? fs.readdirSync(src, { withFileTypes: true })
+		.filter((dirent) => dirent.isDirectory())
+		.map((dirent) => dirent.name)
 	: [];
 
 module.exports = {
@@ -53,7 +52,7 @@ module.exports = {
 						'^\\w',
 					],
 					// Components
-					[`^@components(/.*|$)`],
+					['^@components(/.*|$)'],
 					// Other absolute `@` imports
 					[`^@(${folders.filter((f) => f !== 'components').join('|')})(/.*|$)`],
 					// Relative imports using `src`

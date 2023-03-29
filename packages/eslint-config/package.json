@@ -30,7 +30,8 @@
 		"node": ">= 6.14"
 	},
 	"dependencies": {
-		"confusing-browser-globals": "1.0.11"
+		"confusing-browser-globals": "1.0.11",
+		"eslint-config-prettier": "8.8.0"
 	},
 	"peerDependencies": {
 		"@babel/core": "7.x",

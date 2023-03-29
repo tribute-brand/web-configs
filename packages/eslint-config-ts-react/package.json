@@ -4,7 +4,8 @@
 	"description": "ACB's ESLint config for using React with TypeScript",
 	"main": "index.js",
 	"scripts": {
-		"test": "eslint ."
+		"test": "eslint .",
+		"lint": "eslint --fix ."
 	},
 	"repository": {
 		"type": "git",
@@ -26,8 +27,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@acolorbright/eslint-config-ts": "^4.0.1",
-		"eslint-config-prettier": "8.8.0"
+		"@acolorbright/eslint-config-ts": "^4.0.1"
 	},
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "4.x || 5.x",

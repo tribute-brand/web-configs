@@ -14,7 +14,6 @@ module.exports = {
 	},
 	extends: [
 		'@acolorbright/eslint-config-ts',
-		'eslint-config-prettier',
 		'./rules/react',
 		'./rules/react-a11y',
 		'./rules/react-hooks',

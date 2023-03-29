@@ -14,6 +14,7 @@ module.exports = {
 		requireConfigFile: false,
 	},
 	extends: [
+		'eslint-config-prettier',
 		'./rules/best-practices',
 		'./rules/errors',
 		'./rules/es6',
