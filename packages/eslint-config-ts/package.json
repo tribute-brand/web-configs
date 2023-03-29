@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/eslint-config-ts",
-	"version": "4.0.1",
+	"version": "4.1.1",
 	"description": "ACB's ESLint config for TypeScript",
 	"keywords": [
 		"eslint",
@@ -27,7 +27,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@acolorbright/eslint-config": "^3.1.0"
+		"@acolorbright/eslint-config": "^3.2.1"
 	},
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "4.x || 5.x",
