@@ -7,6 +7,7 @@ This plugin provides ACB's base TypeScript `.eslintrc` (without React plugins) a
 
 The plugin requires `eslint`, `typescript` and the following other packages:
 
+- `@mizdra/eslint-plugin-layout-shift`
 - `@typescript-eslint/eslint-plugin`
 - `@typescript-eslint/parser`
 - `eslint-plugin-extra-rules`

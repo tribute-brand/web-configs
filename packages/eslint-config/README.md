@@ -7,6 +7,7 @@ This plugin provides ACB's base JS `.eslintrc` (without React plugins) as an ext
 
 The plugin requires `eslint`, `@babel/core`, `@babel/eslint-parser` and the following other packages:
 
+- `@mizdra/eslint-plugin-layout-shift`
 - `eslint-plugin-extra-rules`
 - `eslint-plugin-import`
 

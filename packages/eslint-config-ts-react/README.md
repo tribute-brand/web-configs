@@ -7,6 +7,7 @@ This plugin provides ACB's `.eslintrc` as an extensible shared config, based on 
 
 The plugin requires `eslint` and the following other packages:
 
+- `@mizdra/eslint-plugin-layout-shift`
 - `@typescript-eslint/eslint-plugin`
 - `@typescript-eslint/parser`
 - `eslint-plugin-extra-rules`
@@ -14,6 +15,7 @@ The plugin requires `eslint` and the following other packages:
 - `eslint-plugin-jsx-a11y`
 - `eslint-plugin-react`
 - `eslint-plugin-react-hooks`
+- `eslint-plugin-simple-import-sort`
 - `typescript`
 
 ```shell
