@@ -20,7 +20,7 @@ Add the following to your `package.json`:
 
 ```json
 "browserslist": [
-  "extends @acolorbright/browserslist-config"
+	"extends @acolorbright/browserslist-config"
 ]
 ```
 
