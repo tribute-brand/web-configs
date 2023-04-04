@@ -137,7 +137,7 @@ module.exports = {
 				labelComponents: [],
 				labelAttributes: [],
 				controlComponents: [],
-				assert: 'both',
+				assert: 'either',
 				depth: 25,
 			},
 		],
