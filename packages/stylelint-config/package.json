@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/stylelint-config",
-	"version": "5.1.2",
+	"version": "5.1.3",
 	"description": "Stylelint config for ACB",
 	"main": "index.js",
 	"scripts": {
@@ -28,7 +28,7 @@
 		"stylelint-order": "6.0.3"
 	},
 	"devDependencies": {
-		"@acolorbright/eslint-config": "^3.2.2",
+		"@acolorbright/eslint-config": "^3.2.3",
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "8.39.0",
 		"eslint-plugin-extra-rules": "0.8.1",

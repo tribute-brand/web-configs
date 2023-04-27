@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/eslint-config-ts-react",
-	"version": "4.1.4",
+	"version": "4.1.5",
 	"description": "ACB's ESLint config for using React with TypeScript",
 	"main": "index.js",
 	"scripts": {
@@ -27,7 +27,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@acolorbright/eslint-config-ts": "^4.1.3"
+		"@acolorbright/eslint-config-ts": "^4.1.4"
 	},
 	"peerDependencies": {
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
