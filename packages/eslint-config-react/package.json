@@ -42,7 +42,7 @@
 		"eslint-plugin-simple-import-sort": "7.x || 8.x || 9.x || 10.x"
 	},
 	"devDependencies": {
-		"@babel/core": "7.21.3",
+		"@babel/core": "7.22.1",
 		"@babel/eslint-parser": "7.21.3",
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "8.42.0",

@@ -41,7 +41,7 @@
 		"eslint-plugin-import": "^2.22.1"
 	},
 	"devDependencies": {
-		"@babel/core": "7.21.3",
+		"@babel/core": "7.22.1",
 		"@babel/eslint-parser": "7.21.3",
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "8.42.0",
