@@ -2,6 +2,15 @@
 	"name": "acb-tools-and-configs",
 	"description": "ACB's monorepo of tools and configs used for development",
 	"license": "MIT",
+	"workspaces": [
+		"browserslist-config",
+		"eslint-config",
+		"eslint-config-react",
+		"eslint-config-ts",
+		"eslint-config-ts-react",
+		"stylelint-config",
+		"stylelint-config-property-sort-order"
+	],
 	"devDependencies": {
 		"lerna": "7.1.1"
 	}

@@ -6,11 +6,7 @@ This repo contains ACB's tools and configs used in development
 
 ```
 npm install
-npx lerna bootstrap
 ```
-
-`npm install` installs the root dependencies of the project
-`npx lerna bootstrap` installs the packages in the `packages` folder and locally links them where necessary
 
 ## Usage
 
@@ -18,18 +14,11 @@ For more information see [Lerna documentation](https://lerna.js.org/docs/introdu
 
 ### Adding dependencies
 
-In order to add a local or remote dependency for a specific package run `npx lerna add <package> --scope=<target_package>`
-
-This works the same as `npm install <package>` would in a regular repo.
-
-For more info and options see [the documentation](https://github.com/lerna/lerna/tree/main/libs/commands/add#readme)
+In order to add a local or remote dependency for a specific package run `npm install <dependency> -w=<target_package>`
 
 ### Removing dependencies
 
-Since `lerna` doesn't have a `remove` command the way to remove a package is by running
-`npx lerna exec "npm uninstall <package>" --scope=<target_package>`.
-
-`lerna exec` is used to run arbitrary commands in each package, for more info see [the docs](https://github.com/lerna/lerna/tree/main/libs/commands/exec#readme).
+In order to add a local or remote dependency for a specific package run `npm uninstall <dependency> -w=<target_package>`
 
 #### Removing dependencies issue
 
