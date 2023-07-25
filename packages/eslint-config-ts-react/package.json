@@ -31,8 +31,8 @@
 	},
 	"peerDependencies": {
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
-		"@typescript-eslint/eslint-plugin": "4.x || 5.x",
-		"@typescript-eslint/parser": "4.x || 5.x",
+		"@typescript-eslint/eslint-plugin": "4.x || 5.x || 6.x",
+		"@typescript-eslint/parser": "4.x || 5.x || 6.x",
 		"eslint": "7.x || 8.x",
 		"eslint-plugin-extra-rules": "^0.8",
 		"eslint-plugin-import": "2.x",
@@ -44,8 +44,8 @@
 	},
 	"devDependencies": {
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
-		"@typescript-eslint/eslint-plugin": "5.62.0",
-		"@typescript-eslint/parser": "5.62.0",
+		"@typescript-eslint/eslint-plugin": "6.2.0",
+		"@typescript-eslint/parser": "6.2.0",
 		"eslint": "8.45.0",
 		"eslint-plugin-extra-rules": "0.8.1",
 		"eslint-plugin-import": "2.27.5",
