@@ -47,7 +47,7 @@
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "8.46.0",
 		"eslint-plugin-extra-rules": "0.8.1",
-		"eslint-plugin-import": "2.27.5",
+		"eslint-plugin-import": "2.28.0",
 		"eslint-plugin-jsx-a11y": "6.7.1",
 		"eslint-plugin-jsx-control-statements": "3.0.0",
 		"eslint-plugin-react": "7.33.0",
