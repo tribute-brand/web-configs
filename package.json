@@ -3,13 +3,7 @@
 	"description": "Tribute Brands's monorepo of configs used for web development",
 	"license": "MIT",
 	"workspaces": [
-		"browserslist-config",
-		"eslint-config",
-		"eslint-config-react",
-		"eslint-config-ts",
-		"eslint-config-ts-react",
-		"stylelint-config",
-		"stylelint-config-property-sort-order"
+		"packages/*"
 	],
 	"devDependencies": {
 		"lerna": "7.1.1"
