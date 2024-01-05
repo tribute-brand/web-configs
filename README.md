@@ -15,21 +15,11 @@ For more information see [Lerna documentation](https://lerna.js.org/docs/introdu
 
 ### Adding dependencies
 
-In order to add a local or remote dependency for a specific package run `npm install <dependency> -w=<target_package>`
+In order to add a local or remote dependency for a specific package run `npm install <dependency> -w <target_package>`
 
 ### Removing dependencies
 
-In order to add a local or remote dependency for a specific package run `npm uninstall <dependency> -w=<target_package>`
-
-#### Removing dependencies issue
-
-When using linked packages, the method for removing dependencies mentioned here sometimes throws an error. This is a bug in `lerna` that happens because local dependencies get removed from `package-lock.json` which then throws an error when running `npm uninstall`.
-
-The solution to this is deleting the target package's local `package-lock.json`, and then running the aforementioned command.
-
-For more info see the provided links:\
-https://github.com/lerna/lerna/issues/1886#issuecomment-718880049 \
-https://github.com/lfre/lerna-add-remove-issue
+In order to remove a local or remote dependency for a specific package run `npm uninstall <dependency> -w <target_package>`
 
 ### Testing
 
