@@ -1,6 +1,6 @@
 # eslint-config
 
-This plugin provides ACB's base JS `.eslintrc` (without React plugins) as an extensible shared config, based on Airbnb's
+This plugin provides Tribute Brand's base JS `.eslintrc` (without React plugins) as an extensible shared config, based on Airbnb's
 [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base).
 
 ## Installation
@@ -12,10 +12,10 @@ The plugin requires `eslint`, `@babel/core`, `@babel/eslint-parser` and the foll
 - `eslint-plugin-import`
 
 ```shell
-$ npx install-peerdeps -D @acolorbright/eslint-config && npm install -DE @acolorbright/eslint-config@latest
+$ npx install-peerdeps -D @tributebrand/eslint-config && npm install -DE @tributebrand/eslint-config@latest
 ```
 
-Then add `"extends": "@acolorbright/eslint-config"` to your `.eslintrc` file.
+Then add `"extends": "@tributebrand/eslint-config"` to your `.eslintrc` file.
 
 Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.
 

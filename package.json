@@ -1,6 +1,6 @@
 {
-	"name": "acb-tools-and-configs",
-	"description": "ACB's monorepo of tools and configs used for development",
+	"name": "web-configs",
+	"description": "Tribute Brands's monorepo of configs used for web development",
 	"license": "MIT",
 	"workspaces": [
 		"browserslist-config",

@@ -1,5 +1,5 @@
 module.exports = {
-	parser: '@typescript-eslint/parser',
+	parser: "@typescript-eslint/parser",
 	env: {
 		browser: true,
 		commonjs: true,
@@ -10,14 +10,14 @@ module.exports = {
 	},
 	parserOptions: {
 		ecmaVersion: 2020,
-		sourceType: 'module',
+		sourceType: "module",
 	},
 	extends: [
-		'@acolorbright/eslint-config-ts',
-		'./rules/react',
-		'./rules/react-a11y',
-		'./rules/react-hooks',
-		'./rules/style',
-		'./rules/import',
+		"@tributebrand/eslint-config-ts",
+		"./rules/react",
+		"./rules/react-a11y",
+		"./rules/react-hooks",
+		"./rules/style",
+		"./rules/import",
 	].map(require.resolve),
 };
