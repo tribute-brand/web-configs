@@ -1,7 +1,7 @@
 {
-	"name": "@acolorbright/eslint-config",
+	"name": "@tributebrand/eslint-config",
 	"version": "3.2.6",
-	"description": "ACB's base JS ESLint config.",
+	"description": "Tribute Brand's base JS ESLint config.",
 	"main": "index.js",
 	"scripts": {
 		"test": "eslint .",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
+		"url": "git+https://github.com/tribute-brand/web-configs.git"
 	},
 	"keywords": [
 		"eslint",
@@ -21,7 +21,7 @@
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
+		"url": "https://github.com/tribute-brand/web-configs/issues"
 	},
 	"publishConfig": {
 		"access": "public"

@@ -1,5 +1,5 @@
 module.exports = {
-	parser: '@babel/eslint-parser',
+	parser: "@babel/eslint-parser",
 	env: {
 		browser: true,
 		commonjs: true,
@@ -9,20 +9,20 @@ module.exports = {
 		node: true,
 	},
 	globals: {
-		React: 'readonly',
+		React: "readonly",
 	},
 	parserOptions: {
 		ecmaVersion: 2020,
-		sourceType: 'module',
+		sourceType: "module",
 		requireConfigFile: false,
 	},
 	extends: [
-		'@acolorbright/eslint-config',
-		'./rules/control-statements',
-		'./rules/react',
-		'./rules/react-a11y',
-		'./rules/react-hooks',
-		'./rules/style',
-		'./rules/import',
+		"@tributebrand/eslint-config",
+		"./rules/control-statements",
+		"./rules/react",
+		"./rules/react-a11y",
+		"./rules/react-hooks",
+		"./rules/style",
+		"./rules/import",
 	].map(require.resolve),
 };

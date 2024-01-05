@@ -1,7 +1,7 @@
 {
-	"name": "@acolorbright/stylelint-config",
+	"name": "@tributebrand/stylelint-config",
 	"version": "5.1.6",
-	"description": "Stylelint config for ACB",
+	"description": "Stylelint config for Tribute Brand",
 	"main": "index.js",
 	"scripts": {
 		"test": "eslint .",
@@ -9,15 +9,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
+		"url": "git+https://github.com/tribute-brand/web-configs.git"
 	},
-	"author": "A Color Bright GmbH",
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public"
 	},
 	"bugs": {
-		"url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
+		"url": "https://github.com/tribute-brand/web-configs/issues"
 	},
 	"peerDependencies": {
 		"stylelint": "^14.4.0 || ^15.0.0"
@@ -28,7 +27,7 @@
 		"stylelint-order": "6.0.3"
 	},
 	"devDependencies": {
-		"@acolorbright/eslint-config": "^3.2.6",
+		"@tributebrand/eslint-config": "^3.2.6",
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "8.46.0",
 		"eslint-plugin-extra-rules": "0.8.1",

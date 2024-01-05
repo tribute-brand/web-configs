@@ -1,7 +1,7 @@
 {
-	"name": "@acolorbright/eslint-config-ts-react",
+	"name": "@tributebrand/eslint-config-ts-react",
 	"version": "4.1.8",
-	"description": "ACB's ESLint config for using React with TypeScript",
+	"description": "Tribute Brand's ESLint config for using React with TypeScript",
 	"main": "index.js",
 	"scripts": {
 		"test": "eslint .",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/acolorbright/acb-tools-and-configs.git"
+		"url": "git+https://github.com/tribute-brand/web-configs.git"
 	},
 	"keywords": [
 		"eslint",
@@ -21,13 +21,13 @@
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
+		"url": "https://github.com/tribute-brand/web-configs/issues"
 	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"dependencies": {
-		"@acolorbright/eslint-config-ts": "^4.1.7"
+		"@tributebrand/eslint-config-ts": "^4.1.7"
 	},
 	"peerDependencies": {
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",

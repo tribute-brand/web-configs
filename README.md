@@ -1,6 +1,7 @@
-# ACB tools
+# Web Configs
 
-This repo contains ACB's tools and configs used in development
+This repo contains Tribute Brand's configs used in development
+It was forked from https://github.com/acolorbright/acb-tools-and-configs
 
 ## Installation
 

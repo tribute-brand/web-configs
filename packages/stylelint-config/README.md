@@ -1,11 +1,11 @@
 # stylelint-config
 
-Stylelint config providing ACB's standard linting setup for styles.
+Stylelint config providing Tribute Brand's standard linting setup for styles.
 
 ## Installation
 
 ```bash
-npm install -DE @acolorbright/stylelint-config@latest
+npm install -DE @tributebrand/stylelint-config@latest
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ To start using this configuration, extend this package in your Stylelint configu
 
 ```js
 {
-  "extends": "@acolorbright/stylelint-config",
+  "extends": "@tributebrand/stylelint-config",
   "rules": {
     // Add additional rules here
   }
