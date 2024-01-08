@@ -1,6 +1,6 @@
 {
 	"name": "@tributebrand/eslint-config-ts-react",
-	"version": "5.0.1",
+	"version": "5.1.0",
 	"description": "Tribute Brand's ESLint config for using React with TypeScript",
 	"main": "index.js",
 	"scripts": {
@@ -27,7 +27,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@tributebrand/eslint-config-ts": "^5.0.1"
+		"@tributebrand/eslint-config-ts": "^5.1.0"
 	},
 	"peerDependencies": {
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
