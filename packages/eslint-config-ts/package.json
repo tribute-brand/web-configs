@@ -1,6 +1,6 @@
 {
 	"name": "@tributebrand/eslint-config-ts",
-	"version": "4.1.7",
+	"version": "5.0.0",
 	"description": "Tribute Brand's ESLint config for TypeScript",
 	"keywords": [
 		"eslint",
@@ -24,7 +24,7 @@
 		"url": "https://github.com/tribute-brand/web-configs/issues"
 	},
 	"dependencies": {
-		"@tributebrand/eslint-config": "^3.2.6"
+		"@tributebrand/eslint-config": "^4.0.0"
 	},
 	"peerDependencies": {
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",

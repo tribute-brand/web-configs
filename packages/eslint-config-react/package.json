@@ -1,6 +1,6 @@
 {
 	"name": "@tributebrand/eslint-config-react",
-	"version": "4.1.8",
+	"version": "5.0.0",
 	"description": "Tribute Brands's ESLint config for using React",
 	"main": "index.js",
 	"scripts": {
@@ -23,7 +23,7 @@
 		"url": "https://github.com/tribute-brand/web-configs/issues"
 	},
 	"dependencies": {
-		"@tributebrand/eslint-config": "^3.2.6"
+		"@tributebrand/eslint-config": "^4.0.0"
 	},
 	"peerDependencies": {
 		"@babel/core": "7.x",
