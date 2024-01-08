@@ -15,6 +15,9 @@
 	"bugs": {
 		"url": "https://github.com/tribute-brand/web-configs/issues"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"peerDependencies": {
 		"stylelint": "^14.4.0 || ^15.0.0 || ^16.0.0"
 	},

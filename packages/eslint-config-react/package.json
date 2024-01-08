@@ -22,6 +22,9 @@
 	"bugs": {
 		"url": "https://github.com/tribute-brand/web-configs/issues"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"dependencies": {
 		"@tributebrand/eslint-config": "^4.0.0"
 	},
