@@ -12,9 +12,6 @@
 		"url": "git+https://github.com/tribute-brand/web-configs.git"
 	},
 	"license": "MIT",
-	"publishConfig": {
-		"access": "public"
-	},
 	"bugs": {
 		"url": "https://github.com/tribute-brand/web-configs/issues"
 	},

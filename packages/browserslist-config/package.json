@@ -7,8 +7,5 @@
 		"browserslist",
 		"browserslist-config"
 	],
-	"license": "MIT",
-	"publishConfig": {
-		"access": "public"
-	}
+	"license": "MIT"
 }
