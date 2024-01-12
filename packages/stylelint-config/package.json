@@ -1,6 +1,6 @@
 {
 	"name": "@tributebrand/stylelint-config",
-	"version": "6.0.1",
+	"version": "6.1.0",
 	"description": "Stylelint config for Tribute Brand",
 	"main": "index.js",
 	"scripts": {
